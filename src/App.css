@@ -1,0 +1,57 @@
+*{
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+}
+.navBar{
+  background-color: black;
+  padding: 5px 50px;
+}
+.sectionForm{
+  border: 1px solid red;
+  width: 25%;
+  position: absolute;
+  top: 10%;
+  left: 40%;
+  padding: 50px;
+}
+.SignInBtn{
+  margin-left: 100px;
+  margin-top: 50px;
+  
+}
+
+.topic-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+  padding: 20px;
+}
+
+.topic-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+}
+
+.controls {
+  margin: 20px 0;
+  display: flex;
+  gap: 10px;
+}
+.topicsGet{
+  width: 70vw;
+  position: absolute;
+  top: 80%;
+  left: 20%;
+}
+
+.controls input {
+  flex: 1;
+  padding: 8px;
+}
+
+.controls select {
+  padding: 8px;
+}
